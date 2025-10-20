@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* font-family: "Special Elite", system-ui; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Special Elite", system-ui;
+}
+body{
+    background-color: #000000;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-inline: 15px;
+    border-bottom: 5px #6A009A solid;
+}
+.logo{
+    width: 260px;
+    margin-right: 200px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    background-color: #303030;
+    border-radius: 30px;
+    margin-right: 600px;
+}
+.searchBar img{
+    width: 27px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.searchBar input{
+    padding: 9px;
+    padding-right: 120px;
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+}
+.searchBar input:focus{
+    outline: none;
+    color: #ffffff;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user img{
+    width: 58px;
+    margin-right: 15px;
+}
+.user a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.content{
+    display: flex;
+}
+.content aside{
+    width: 460px;
+    min-height: 100dvh;
+    border-right: 5px #6A009A solid;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.sideCard{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sideCard img{
+    width: 80px;
+    margin-right: 15px;
+}
+.sideCard a{
+    text-decoration: none;
+}
+.sideCard p{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.sideCard p:hover{
+    text-decoration: underline;
+}
+
+/* here from above is the common part between the pages */
+
+.mainContent{
+    max-width: 100vh;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    padding-left: 90px;
+}
+.mainContent h1{
+    color: #ffffff;
+    font-weight: 400;
+}
+.artists{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+.artists a{
+    text-decoration: none;
+}
+.artistsCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.artistsCard:hover{
+    background-color: #33333359;
+    border-radius: 20px;
+}
+.artistsCard img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.artistsCard p{
+    color: #ffffff;
+    font-size: 1.7rem;
+    
+}
