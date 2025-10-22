@@ -123,16 +123,16 @@ nav{
     background: url(../img/sleeptoken-banner.png) no-repeat center center/cover;
 }
 .page-iron .banner{
-
+    background: url(../img/iron-banner.png) no-repeat center center/cover;
 }
 .page-slipknot .banner{
-
+    background: url(../img/slipknot-banner.png) no-repeat center center/cover;
 }
 .page-alok .banner{
-
+    background: url(../img/alok-banner.png) no-repeat center center/cover;
 }
-.page.marsh .banner{
-
+.page-marsh .banner{
+    background: url(../img/marsh-banner.png) no-repeat center center/cover;
 }
 
 .infos{
